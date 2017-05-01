@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create New Rate Plan</title>
+
+    </head>
+    <body bgcolor="pink">
+
+        <form action="CreateRP">
+            <center>
+                <table>
+                    <tr>
+                        <th colspan="2">
+                    <h3>Create New Profile</h3>
+                    </th>
+
+                    <tr>
+
+                    <tr>    
+                        <td>
+                            <b>Rate Plan Name
+                        </td>   
+                        <td>
+                            <input type="text" name="rp_name">
+                        </td>   
+
+                    </tr>    
+
+                    <tr>    
+                        <td><b>Services</td>
+                        <td>
+                            <br><input type="checkbox" name="service1" value="voice">Voice<br>
+                            <input type="checkbox" name="service2" value="sms">SMS<br>
+                            <input type="checkbox" name="service3" value="data">Data<br>
+                        </td>   
+
+                    </tr>
+                    
+                    <tr>
+                        <input type="checkbox" name="service1" value="vas">Vas name<br>
+                        
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><B>Voice Rating in Piasters</B></td>  
+                    </tr>    
+                    <ul>
+                    
+                        <tr>
+                            <td > <li>  International calls   </li>         </td> 
+                        <td> <input type="text" name="intvoicer"></td>
+                    
+                        </tr>   
+                    
+                    <tr>
+                        <td><li>On-Net calls          </li>  </td> 
+                        <td> <input type="text" name="onvoicer"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><li>Cross-Net calls  </li>             </td> 
+                        <td> <input type="text" name="crossvoicer"></td>
+                    </tr>
+                        </ul>
+                    <tr>
+                        <td><B>SMS Rating in Piasters            </b>  </td> 
+                        <td> <input type="text" name="smsr"></td>
+                    </tr>
+                    <tr>
+                        <td><B>External Data Charges per MB  </b>  </td> 
+                        <td> <input type="text" name="datar"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><B>Free Units</B></td>  
+                    </tr>
+                    <tr>
+                        <td><B>Data FU in MB  </b>  </td> 
+                        <td> <input type="text" name="fudata"></td>
+                    </tr>
+                    <tr>
+                        <td><B>On-net voice in Min </b>  </td> 
+                        <td> <input type="text" name="fuonvoice"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><B>Cross-net voice in Min </b>  </td> 
+                        <td> <input type="text" name="fucrossvoice"></td>
+                    </tr>
+                     <tr>
+                        <td><B>International voice in Min </b>  </td> 
+                        <td> <input type="text" name="fuintvoice"></td>
+                    </tr>
+                     <tr>
+                        <td><B>SMS Free Units  </b>  </td> 
+                        <td> <input type="text" name="fusms"></td>
+                    </tr>
+                     <tr>
+                        <td><B>Rate Plan Fees </b>  </td> 
+                        <td> <input type="text" name="rpfees"></td>
+                    </tr>
+
+                    <tr rowspan='2'>
+                    
+                    
+                    <td align="right"> <input type="reset" value="Reset" />  </td>
+
+                    <td align="right"> <input type="submit" value="create" />   </td>
+
+                </tr>   
+
+
+
+                </table>
+
+            </center>
+
+        </form>
+    </body>
+</html>
